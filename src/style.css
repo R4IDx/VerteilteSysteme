@@ -1,0 +1,190 @@
+/* Webshop-Administration Styles */
+
+.headline{
+    background: #50bc48;
+    text-align: center;
+    font-size: 50px;
+    font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+    font-weight: bolder;
+    width: 100%;
+
+}
+
+h1{
+    margin-bottom: 1px;
+}
+p{
+    font-size: 15px;
+    height: 40px;
+}
+
+.name{
+    color:white;
+}
+
+
+.weight{
+    color:white;
+}
+
+.size{
+    color:white;
+}
+
+.class{
+    color:white;
+}
+
+.age{
+    color:white;
+}
+
+.origin{
+    color:white;
+}
+
+.description{
+    color:white;
+}
+
+.products{
+    color:white;
+}
+#table{
+    color:white;
+}
+
+.id{
+    display: none;
+}
+.products{
+    border: solid 2px black;
+}
+#container{
+    border: solid 2px rgb(0, 0, 0);
+}
+
+td,tr{
+    border: solid 2px rgb(0, 0, 0);
+}
+
+td{
+    text-transform: uppercase;
+}
+
+button{
+    width: 100px;
+    height: 100px;
+    font-size: 20px;
+    color: #ffffff;
+    background: linear-gradient(to top right, #000000, #000000);
+    border: none;
+    border-radius: 0px;
+    font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+    font-weight: bold;
+    transition: all 0.25s ease;
+}
+button:hover {
+    color: #000000;
+    background: linear-gradient(to top right, #fde374, #fde374);
+
+}
+.create{
+    text-align: center;
+    font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+    float: top;
+    height: 375px;
+    width: 100%;
+    background: #246532;
+    margin-top: 1%;
+    font-weight: bold;
+}
+.createleft {
+    font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+    float: left;
+    height: max-content;
+    align-content: center;
+    margin-left: 10%;
+    margin-top: 1%;
+
+
+}
+.createright {
+    font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+    float: left;
+    width: max-content;
+    margin-left: 1%;
+    margin-right: 10%;
+    margin-top: 1%;
+
+
+
+}
+.read {
+    font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+    float: left;
+    height: 100%;
+    width: 100%;
+    background: #246532;
+    margin-top: 1%;
+    text-align: center;
+    font-weight: bold;
+
+
+}
+.erstellenknopf {
+    font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+    height: max-content;
+    width: 100%;
+    float: left;
+    text-align: center;
+    margin-top: 1%;
+}
+#erstellen {
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    color: #ffffff;
+    background: linear-gradient(to top right, #000000, #000000);
+    border: none;
+    border-radius: 0px;
+    font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+    font-weight: bold;
+    transition: all 0.25s ease;
+}
+#erstellen:hover {
+    color: #000000;
+    background: linear-gradient(to top right, #fde374, #fde374);
+
+}
+.editknopf {
+    font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+    height: max-content;
+    width: 100%;
+    float: left;
+    text-align: center;
+    margin-top: 1%;
+}
+#edit {
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    color: #ffffff;
+    background: linear-gradient(to top right, #000000, #000000);
+    border: none;
+    border-radius: 0px;
+    font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+    font-weight: bold;
+    transition: all 0.25s ease;
+}
+#edit:hover {
+    color: #000000;
+    background: linear-gradient(to top right, #fde374, #fde374);
+
+}
+
+table#table{
+    width:70%;
+    margin-left:15%; 
+    margin-right:15%;
+}
