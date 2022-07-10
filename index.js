@@ -27,6 +27,7 @@ app.post('/api/v1/animals', async (req, res) => {
             weight_max: data.weight_max,
             feed: data.feed,
             size: data.size
+
         }
     });
 

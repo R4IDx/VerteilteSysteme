@@ -10,9 +10,8 @@
 <body style="background-color: #0a2d0f">
     <div class="headline">
     <h1>Das grosse Tierlexikon</h1>
-        <p>Semsterprojekt VS 2022</p>
+        <p>Semesterprojekt VS 2022</p>
     </div>
-    <form id="create" class="create">
         <div class="createleft">
             <div class="name">NAME</div>
             <div class="id">
@@ -25,6 +24,10 @@
                 <div class="size">
                     <textarea required type="text" rows="1" cols="50" id="size" input="text"></textarea>
                 </div>
+            <div class="feed">FUTTER</div>
+            <div class="weight">
+                <textarea required type="text" rows="1" cols="50" id="feed" input="text"></textarea>
+            </div>
             <div class="weight_min">GEWICHT MIN</div>
                 <div class="weight">
                     <textarea required type="text" rows="1" cols="50" id="weight_min" input="text"></textarea>
@@ -37,75 +40,23 @@
                 <div class="class">
                     <textarea required type="text" rows="1" cols="50" id="class" input="text"></textarea>
                 </div>
-            <div class="age">ALTER</div>
-                <div class="age">
-                    <textarea required type="text" rows="1" cols="50" id="age" input="text"></textarea>
-                </div>
             <div class="origin">HERKUNFT</div>
                 <div class="origin">
                     <textarea required type="text" rows="1" cols="50" id="origin" input="text"></textarea>
                 </div>
-
-
-        </div>
-
-        <div class="createright">
-            <div class="description">BESCHREIBUNG</div>
-            <div class="description">
-                <textarea required type="text" rows="10" cols="50" id="desc2" input="text"></textarea>
-            </div>
             <div class="erstellenknopf">
-                <button value="create" type="submit" id="erstellen">Tier Hinzufügen</button>
+                <button value="create" id="erstellen">Tier Hinzufügen</button>
             </div>
-            <div class="editknopf">
-                <button value="edit" type="submit" id="edit">Tier Editieren</button>
-            </div>
-        </div>
 
-    </form>
+        </div>
 
 
 
     <div class="read">
-        <div class="products">Lexikon Einträge</div>
+
         <div id="container"> <table id="table">
-            <caption>Tierarten</caption>
-            <tr>
-                <th scope="col">Tiere</th>
-                <th scope="col">Name</th>
-                <th scope="col">Größe</th>
-                <th scope="col">Gewicht</th>
-                <th scope="col">Klasse</th>
-                <th scope="col">Alter</th>
-                <th scope="col">Herkunft</th>
-            </tr>
-            <tr>
-                <th scope="row">Pinguin</th>
-                <td>Adéliepinguin</td>
-                <td>70 cm</td>
-                <td>4-5 kg</td>
-                <td>Vögel</td>
-                <td>5 Jahre</td>
-                <td>Antarktis</td>
-            </tr>
-            <tr>
-                <th scope="row">Wal</th>
-                <td>Belugawal</td>
-                <td>3-6 m</td>
-                <td>1500 kg</td>
-                <td>Säugetiere</td>
-                <td>50 Jahre</td>
-                <td>Alaska, Kanada</td>
-            </tr>
-            <tr>
-                <th scope="row">Hund</th>
-                <td>Dalmatiner</td>
-                <td>60 cm</td>
-                <td>30 kg</td>
-                <td>Säugetiere</td>
-                <td>10-13 Jahre</td>
-                <td>Kroatien</td>
-            </tr>
+
+
         </table>
          </div>
 
@@ -118,6 +69,6 @@
 
 
 
-    <script src="src/index.js"></script>
+    <script src="src/index_front.js"></script>
 </body>
 </html>

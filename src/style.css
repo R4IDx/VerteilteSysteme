@@ -50,7 +50,22 @@ p{
 .products{
     color:white;
 }
-#table{
+.weight_min {
+    color:white;
+}
+
+.weight_max {
+    color:white;
+}
+.feed {
+    color:white;
+}
+
+.container {
+    color:white;
+}
+
+.table{
     color:white;
 }
 
@@ -140,6 +155,7 @@ button:hover {
     text-align: center;
     margin-top: 1%;
 }
+
 #erstellen {
     width: 200px;
     height: 50px;
@@ -157,14 +173,7 @@ button:hover {
     background: linear-gradient(to top right, #fde374, #fde374);
 
 }
-.editknopf {
-    font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
-    height: max-content;
-    width: 100%;
-    float: left;
-    text-align: center;
-    margin-top: 1%;
-}
+
 #edit {
     width: 200px;
     height: 50px;

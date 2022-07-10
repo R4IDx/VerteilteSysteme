@@ -11,6 +11,6 @@ COPY . .
 
 RUN npx prisma generate
 
-CMD node index.js
+CMD node index_front.js
 
 EXPOSE 28785
